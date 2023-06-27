@@ -7,3 +7,8 @@ The bug report includes detailed descriptions of functional defects, usability p
 Feel free to explore the bug report to understand the testing efforts undertaken and the steps taken to ensure a robust and user-friendly application.
 
 https://docs.google.com/spreadsheets/d/1xU_epZbo6M-Xt3hS_71fxrATkFIaKyZMlTU519ly0dQ/edit?usp=sharing
+
+
+Available on Play store
+
+https://play.google.com/store/apps/details?id=com.innoblitz.samsgrab.samsgrab
