@@ -31,6 +31,8 @@ Experienced in utilizing TestNG for test execution, test configuration, and repo
 
 Knowledgeable in Jenkins for continuous integration and automation of testing processes.
 
+SQL: Proficient in SQL with a strong foundation acquired through self-study, including learning from reputable sources such as W3Schools. Skilled in database design, querying, and data manipulation.
+
 Familiarity with Git and GitHub for version control and repository management.
 
 Utilized Google Sheets for tracking and collaborating on bug reports.
