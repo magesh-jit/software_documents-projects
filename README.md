@@ -37,6 +37,8 @@ Familiarity with Git and GitHub for version control and repository management.
 
 Utilized Google Sheets for tracking and collaborating on bug reports.
 
+Web Security: Proficient in using Burp Suite for web security testing. Acquired knowledge through self-learning and hands-on experience. Skilled in identifying vulnerabilities, performing security assessments, and providing recommendations for mitigation.
+
 **Contact Information**
 
 I am excited to contribute my skills and experiences to your team. If you have any questions or would like to discuss potential collaborations, please feel free to reach out to me via email at mariyanmachi@gmail.com or connect with me on LinkedIn at https://in.linkedin.com/in/magesh-ethiraj-b3895913a
