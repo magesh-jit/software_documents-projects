@@ -19,11 +19,11 @@ Bug Report Documentation: Comprehensive reports highlighting critical issues dis
 
 **Tools and Technologies**
 
-Proficient in Selenium with Java for automated testing.
+Proficient in Selenium with Java for automated testing, including recent completion of a comprehensive course.
 
 Experienced in using Jira for issue tracking and collaboration.
 
-Skilled in utilizing Katalon Studio for automated testing, including data-driven testing and BDD frameworks.
+Skilled in utilizing Katalon Studio for automated testing, including data-driven testing and BDD frameworks, with self-learned expertise.
 
 Proficient in using Eclipse IDE for test script development, debugging, and project management.
 
