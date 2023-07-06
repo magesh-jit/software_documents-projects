@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add to cart</name>
+   <tag></tag>
+   <elementGuidId>1f2f387a-6c5e-4743-9492-38b74f22d54c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>33baf7a6-6b92-4864-822b-83087cfe82fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>de107d79-c6b7-49b7-bcf2-8de6e47ad6d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-2 product-box-add-to-cart-button</value>
+      <webElementGuid>1fff30e2-6104-426d-abed-e0591ce7dfd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/5/1/1&quot;),!1</value>
+      <webElementGuid>4d2f5611-a772-46fc-aff3-e36220ddc745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to cart</value>
+      <webElementGuid>c59b71c3-c411-4474-a14d-65af51dff4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;html-category-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;products-container&quot;]/div[@class=&quot;products-wrapper&quot;]/div[@class=&quot;product-grid&quot;]/div[@class=&quot;item-grid&quot;]/div[@class=&quot;item-box&quot;]/div[@class=&quot;product-item&quot;]/div[@class=&quot;details&quot;]/div[@class=&quot;add-info&quot;]/div[@class=&quot;buttons&quot;]/button[@class=&quot;button-2 product-box-add-to-cart-button&quot;]</value>
+      <webElementGuid>e43a0c23-f5f1-48c5-86d4-ec53624bf578</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>a2d136c0-20a9-4aef-8c29-56ea859564c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,500.00'])[1]/following::button[1]</value>
+      <webElementGuid>26300596-4e7e-48fa-85cf-14bc8cb364f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asus N551JK-XO076H Laptop'])[1]/following::button[1]</value>
+      <webElementGuid>1ff51102-0e64-4b55-a66c-840f30bcb514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to compare list'])[2]/preceding::button[1]</value>
+      <webElementGuid>205bba1c-3918-4158-9334-d4b3a6c5065d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to wishlist'])[2]/preceding::button[2]</value>
+      <webElementGuid>115b4f3a-b67b-4e77-9cbc-2d4a406f518d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[3]/div[2]/button</value>
+      <webElementGuid>9b70838b-f68a-4e77-a304-0b741a24c07f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>d8c69f60-3eda-40b2-8311-22a541971ef4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

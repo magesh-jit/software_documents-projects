@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+threeModuleSuite,Chrome 114.0.0.0,,,2023-07-05 17:37:43,2023-07-05 17:39:43,2m - 0.246s,PASSED
+,,,,,,,
+Test Cases/Test Case List/Registration Test Case,Chrome 114.0.0.0,,,2023-07-05 17:37:43,2023-07-05 17:38:17,34.017s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-05 17:37:44,2023-07-05 17:37:49,4.614s,PASSED
+navigateToUrl(url),Chrome 114.0.0.0,,,2023-07-05 17:37:49,2023-07-05 17:37:55,6.539s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-05 17:37:55,2023-07-05 17:37:55,0.194s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store/a_Register""))",Chrome 114.0.0.0,,,2023-07-05 17:37:55,2023-07-05 17:37:57,1.936s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Gender_Gender""))",Chrome 114.0.0.0,,,2023-07-05 17:37:57,2023-07-05 17:37:58,0.574s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_First name_FirstName""), firstName)",Chrome 114.0.0.0,,,2023-07-05 17:37:58,2023-07-05 17:37:59,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Last name_LastName""), lastName)",Chrome 114.0.0.0,,,2023-07-05 17:37:59,2023-07-05 17:38:00,0.799s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b""), ""0"", true)",Chrome 114.0.0.0,,,2023-07-05 17:38:00,2023-07-05 17:38:01,1.374s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b""), ""30"", true)",Chrome 114.0.0.0,,,2023-07-05 17:38:01,2023-07-05 17:38:03,1.855s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb""), ""12"", true)",Chrome 114.0.0.0,,,2023-07-05 17:38:03,2023-07-05 17:38:04,1.228s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/select_Year19131914191519161917191819191920_eebbaf""), ""1990"", true)",Chrome 114.0.0.0,,,2023-07-05 17:38:04,2023-07-05 17:38:07,3.322s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Email_Email""), email)",Chrome 114.0.0.0,,,2023-07-05 17:38:07,2023-07-05 17:38:08,0.828s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Company name_Company""), company)",Chrome 114.0.0.0,,,2023-07-05 17:38:08,2023-07-05 17:38:09,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Password_Password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-05 17:38:09,2023-07-05 17:38:10,0.544s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/input_Confirm password_ConfirmPassword""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-05 17:38:10,2023-07-05 17:38:10,0.588s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Register/button_Register""))",Chrome 114.0.0.0,,,2023-07-05 17:38:10,2023-07-05 17:38:11,1.086s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-05 17:38:11,2023-07-05 17:38:16,5.056s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-05 17:38:16,2023-07-05 17:38:17,0.816s,PASSED
+,,,,,,,
+Test Cases/Test Case List/Login Test Case,Chrome 114.0.0.0,,,2023-07-05 17:38:17,2023-07-05 17:38:41,23.944s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-05 17:38:18,2023-07-05 17:38:20,1.788s,PASSED
+navigateToUrl(url),Chrome 114.0.0.0,,,2023-07-05 17:38:20,2023-07-05 17:38:25,5.617s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-05 17:38:25,2023-07-05 17:38:25,0.190s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store/a_Log in""))",Chrome 114.0.0.0,,,2023-07-05 17:38:25,2023-07-05 17:38:27,1.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Login/input_Email_Email""), email)",Chrome 114.0.0.0,,,2023-07-05 17:38:27,2023-07-05 17:38:28,0.872s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_nopCommerce demo store. Login/input_Password_Password""), password)",Chrome 114.0.0.0,,,2023-07-05 17:38:28,2023-07-05 17:38:29,0.610s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Login/button_Log in""))",Chrome 114.0.0.0,,,2023-07-05 17:38:29,2023-07-05 17:38:30,1.385s,PASSED
+delay(10),Chrome 114.0.0.0,,,2023-07-05 17:38:30,2023-07-05 17:38:40,10.015s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-05 17:38:40,2023-07-05 17:38:41,1.042s,PASSED
+,,,,,,,
+Test Cases/Test Case List/Guest Order Test Case,Chrome 114.0.0.0,,,2023-07-05 17:38:41,2023-07-05 17:39:43,1m - 1.625s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-05 17:38:42,2023-07-05 17:38:44,1.802s,PASSED
+navigateToUrl(url),Chrome 114.0.0.0,,,2023-07-05 17:38:44,2023-07-05 17:38:49,5.199s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-05 17:38:49,2023-07-05 17:38:49,0.184s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store/a_Computers""))",Chrome 114.0.0.0,,,2023-07-05 17:38:49,2023-07-05 17:38:50,1.215s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Computers/a_Notebooks""))",Chrome 114.0.0.0,,,2023-07-05 17:38:50,2023-07-05 17:38:51,1.089s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Notebooks/button_Add to cart""))",Chrome 114.0.0.0,,,2023-07-05 17:38:51,2023-07-05 17:38:52,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Notebooks/a_Electronics""))",Chrome 114.0.0.0,,,2023-07-05 17:38:52,2023-07-05 17:38:58,6.084s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Electronics/a_Cell phones""))",Chrome 114.0.0.0,,,2023-07-05 17:38:58,2023-07-05 17:38:59,1.038s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Cell phones/button_Add to cart""))",Chrome 114.0.0.0,,,2023-07-05 17:38:59,2023-07-05 17:38:59,0.571s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Cell phones/span_Shopping cart""))",Chrome 114.0.0.0,,,2023-07-05 17:38:59,2023-07-05 17:39:05,5.736s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Shopping Cart/input_1,600.00_termsofservice""))",Chrome 114.0.0.0,,,2023-07-05 17:39:05,2023-07-05 17:39:07,1.891s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout""))",Chrome 114.0.0.0,,,2023-07-05 17:39:07,2023-07-05 17:39:09,1.662s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Login/button_Checkout as Guest""))",Chrome 114.0.0.0,,,2023-07-05 17:39:09,2023-07-05 17:39:10,1.665s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_First name_BillingNewAddress.FirstName""), ""magesh"")",Chrome 114.0.0.0,,,2023-07-05 17:39:10,2023-07-05 17:39:11,0.872s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Last name_BillingNewAddress.LastName""), ""magesh"")",Chrome 114.0.0.0,,,2023-07-05 17:39:11,2023-07-05 17:39:12,0.845s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Email_BillingNewAddress.Email""), email)",Chrome 114.0.0.0,,,2023-07-05 17:39:12,2023-07-05 17:39:13,0.862s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company""), company)",Chrome 114.0.0.0,,,2023-07-05 17:39:13,2023-07-05 17:39:14,0.820s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company""))",Chrome 114.0.0.0,,,2023-07-05 17:39:14,2023-07-05 17:39:14,0.465s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112""), ""0"", true)",Chrome 114.0.0.0,,,2023-07-05 17:39:14,2023-07-05 17:39:18,3.565s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112""), ""162"", true)",Chrome 114.0.0.0,,,2023-07-05 17:39:18,2023-07-05 17:39:22,3.758s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_City_BillingNewAddress.City""), ""one coty"")",Chrome 114.0.0.0,,,2023-07-05 17:39:22,2023-07-05 17:39:22,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Address 1_BillingNewAddress.Address1""), ""one address"")",Chrome 114.0.0.0,,,2023-07-05 17:39:22,2023-07-05 17:39:23,0.969s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Zip  postal code_BillingNewAddress.Zi_77bd94""), ""41041"")",Chrome 114.0.0.0,,,2023-07-05 17:39:23,2023-07-05 17:39:24,0.894s,PASSED
+"setText(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/input_Phone number_BillingNewAddress.PhoneNumber""), ""7417417417"")",Chrome 114.0.0.0,,,2023-07-05 17:39:24,2023-07-05 17:39:25,0.964s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/button_Continue""))",Chrome 114.0.0.0,,,2023-07-05 17:39:25,2023-07-05 17:39:26,0.627s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-05 17:39:26,2023-07-05 17:39:31,5.006s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1""))",Chrome 114.0.0.0,,,2023-07-05 17:39:31,2023-07-05 17:39:31,0.596s,PASSED
+"click(findTestObject(""Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1""))",Chrome 114.0.0.0,,,2023-07-05 17:39:31,2023-07-05 17:39:32,0.759s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-05 17:39:32,2023-07-05 17:39:37,5.002s,PASSED
+"waitForElementVisible(findTestObject(""Page_nopCommerce demo store. Checkout/button_Continue_2""), 30)",Chrome 114.0.0.0,,,2023-07-05 17:39:37,2023-07-05 17:39:38,1.110s,PASSED
+"verifyElementVisible(findTestObject(""Page_nopCommerce demo store. Checkout/button_Continue_2""))",Chrome 114.0.0.0,,,2023-07-05 17:39:38,2023-07-05 17:39:39,0.445s,PASSED
+"click(findTestObject(""Page_nopCommerce demo store. Checkout/button_Continue_2""))",Chrome 114.0.0.0,,,2023-07-05 17:39:39,2023-07-05 17:39:39,0.370s,PASSED
+"verifyElementPresent(findTestObject(""Page_nopCommerce demo store. Checkout/button_Continue_4""), 5)",Chrome 114.0.0.0,,,2023-07-05 17:39:39,2023-07-05 17:39:40,1.014s,PASSED
+"click(findTestObject(""Page_nopCommerce demo store. Checkout/button_Continue_4""))",Chrome 114.0.0.0,,,2023-07-05 17:39:40,2023-07-05 17:39:41,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Page_nopCommerce demo store. Checkout/button_Confirm_5""), 5)",Chrome 114.0.0.0,,,2023-07-05 17:39:41,2023-07-05 17:39:41,0.820s,PASSED
+"click(findTestObject(""Page_nopCommerce demo store. Checkout/button_Confirm_5""))",Chrome 114.0.0.0,,,2023-07-05 17:39:41,2023-07-05 17:39:42,0.401s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-05 17:39:42,2023-07-05 17:39:43,0.989s,PASSED

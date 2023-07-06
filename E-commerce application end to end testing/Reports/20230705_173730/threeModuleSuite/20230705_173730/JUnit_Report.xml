@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="threeModuleSuite" time="120.246" tests="3" failures="0" errors="0">
+   <testsuite name="threeModuleSuite" tests="3" failures="0" errors="0" time="120.246" skipped="0" timestamp="2023-07-05 17:37:43" hostname="admin - DESKTOP-PC676FI" id="Test Suites/threeModuleSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\Katalon Studio\\E-commerce application end to end testing\\Reports\\20230705_173730\\threeModuleSuite\\20230705_173730"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Katalon Studio\\E-commerce application end to end testing\\Reports\\20230705_173730\\threeModuleSuite\\20230705_173730\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - DESKTOP-PC676FI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="b4fef0e7c5e80b75512a49d3c890aaa2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case List/Registration Test Case" time="34.017" classname="Test Cases/Test Case List/Registration Test Case" status="PASSED">
+         <system-out><![CDATA[2023-07-05 17:37:43 - [TEST_CASE][PASSED] - Test Cases/Test Case List/Registration Test Case: Test Cases/Test Case List/Registration Test Case
+
+2023-07-05 17:37:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 17:37:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 17:37:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 17:37:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 17:37:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:37:55 - [MESSAGE][PASSED] - Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:37:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 17:37:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 17:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store/a_Register")): Object: 'Object Repository/Page_nopCommerce demo store/a_Register' is clicked on
+
+2023-07-05 17:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store/a_Register' is clicked on
+
+2023-07-05 17:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Gender_Gender")): Object: 'Object Repository/Page_nopCommerce demo store. Register/input_Gender_Gender' is clicked on
+
+2023-07-05 17:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Register/input_Gender_Gender' is clicked on
+
+2023-07-05 17:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_First name_FirstName"), firstName): Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_First name_FirstName'
+
+2023-07-05 17:37:59 - [MESSAGE][PASSED] - Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_First name_FirstName'
+
+2023-07-05 17:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Last name_LastName"), lastName): Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Last name_LastName'
+
+2023-07-05 17:38:00 - [MESSAGE][PASSED] - Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Last name_LastName'
+
+2023-07-05 17:38:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b"), "0", true): All options with value '0' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2023-07-05 17:38:01 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2023-07-05 17:38:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b"), "30", true): All options with value '30' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2023-07-05 17:38:03 - [MESSAGE][PASSED] - All options with value '30' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Day123456789101112131415161718192021_40ab5b'  using regular expression
+
+2023-07-05 17:38:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Register/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb"), "12", true): All options with value '12' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2023-07-05 17:38:04 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2023-07-05 17:38:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Register/select_Year19131914191519161917191819191920_eebbaf"), "1990", true): All options with value '1990' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Year19131914191519161917191819191920_eebbaf'  using regular expression
+
+2023-07-05 17:38:07 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/Page_nopCommerce demo store. Register/select_Year19131914191519161917191819191920_eebbaf'  using regular expression
+
+2023-07-05 17:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Email_Email"), email): Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Email_Email'
+
+2023-07-05 17:38:08 - [MESSAGE][PASSED] - Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Email_Email'
+
+2023-07-05 17:38:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Company name_Company"), company): Text 'software company' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Company name_Company'
+
+2023-07-05 17:38:09 - [MESSAGE][PASSED] - Text 'software company' is set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Company name_Company'
+
+2023-07-05 17:38:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Password_Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Password_Password'
+
+2023-07-05 17:38:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Password_Password'
+
+2023-07-05 17:38:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_nopCommerce demo store. Register/input_Confirm password_ConfirmPassword"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Confirm password_ConfirmPassword'
+
+2023-07-05 17:38:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Register/input_Confirm password_ConfirmPassword'
+
+2023-07-05 17:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Register/button_Register")): Object: 'Object Repository/Page_nopCommerce demo store. Register/button_Register' is clicked on
+
+2023-07-05 17:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Register/button_Register' is clicked on
+
+2023-07-05 17:38:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-05 17:38:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-05 17:38:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 17:38:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case List/Login Test Case" time="23.944" classname="Test Cases/Test Case List/Login Test Case" status="PASSED">
+         <system-out><![CDATA[2023-07-05 17:38:17 - [TEST_CASE][PASSED] - Test Cases/Test Case List/Login Test Case: Test Cases/Test Case List/Login Test Case
+
+2023-07-05 17:38:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 17:38:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 17:38:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 17:38:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 17:38:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:38:25 - [MESSAGE][PASSED] - Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:38:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 17:38:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 17:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store/a_Log in")): Object: 'Object Repository/Page_nopCommerce demo store/a_Log in' is clicked on
+
+2023-07-05 17:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store/a_Log in' is clicked on
+
+2023-07-05 17:38:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Login/input_Email_Email"), email): Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Login/input_Email_Email'
+
+2023-07-05 17:38:28 - [MESSAGE][PASSED] - Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Login/input_Email_Email'
+
+2023-07-05 17:38:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_nopCommerce demo store. Login/input_Password_Password"), password): Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Login/input_Password_Password'
+
+2023-07-05 17:38:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_nopCommerce demo store. Login/input_Password_Password'
+
+2023-07-05 17:38:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Login/button_Log in")): Object: 'Object Repository/Page_nopCommerce demo store. Login/button_Log in' is clicked on
+
+2023-07-05 17:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Login/button_Log in' is clicked on
+
+2023-07-05 17:38:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-07-05 17:38:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-05 17:38:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 17:38:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case List/Guest Order Test Case" time="61.625" classname="Test Cases/Test Case List/Guest Order Test Case" status="PASSED">
+         <system-out><![CDATA[2023-07-05 17:38:41 - [TEST_CASE][PASSED] - Test Cases/Test Case List/Guest Order Test Case: Test Cases/Test Case List/Guest Order Test Case
+
+2023-07-05 17:38:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 17:38:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 17:38:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 17:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 17:38:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:38:49 - [MESSAGE][PASSED] - Navigate to 'https://demo.nopcommerce.com/' successfully
+
+2023-07-05 17:38:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 17:38:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 17:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store/a_Computers")): Object: 'Object Repository/Page_nopCommerce demo store/a_Computers' is clicked on
+
+2023-07-05 17:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store/a_Computers' is clicked on
+
+2023-07-05 17:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Computers/a_Notebooks")): Object: 'Object Repository/Page_nopCommerce demo store. Computers/a_Notebooks' is clicked on
+
+2023-07-05 17:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Computers/a_Notebooks' is clicked on
+
+2023-07-05 17:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Notebooks/button_Add to cart")): Object: 'Object Repository/Page_nopCommerce demo store. Notebooks/button_Add to cart' is clicked on
+
+2023-07-05 17:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Notebooks/button_Add to cart' is clicked on
+
+2023-07-05 17:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Notebooks/a_Electronics")): Object: 'Object Repository/Page_nopCommerce demo store. Notebooks/a_Electronics' is clicked on
+
+2023-07-05 17:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Notebooks/a_Electronics' is clicked on
+
+2023-07-05 17:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Electronics/a_Cell phones")): Object: 'Object Repository/Page_nopCommerce demo store. Electronics/a_Cell phones' is clicked on
+
+2023-07-05 17:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Electronics/a_Cell phones' is clicked on
+
+2023-07-05 17:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Cell phones/button_Add to cart")): Object: 'Object Repository/Page_nopCommerce demo store. Cell phones/button_Add to cart' is clicked on
+
+2023-07-05 17:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Cell phones/button_Add to cart' is clicked on
+
+2023-07-05 17:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Cell phones/span_Shopping cart")): Object: 'Object Repository/Page_nopCommerce demo store. Cell phones/span_Shopping cart' is clicked on
+
+2023-07-05 17:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Cell phones/span_Shopping cart' is clicked on
+
+2023-07-05 17:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Shopping Cart/input_1,600.00_termsofservice")): Object: 'Object Repository/Page_nopCommerce demo store. Shopping Cart/input_1,600.00_termsofservice' is clicked on
+
+2023-07-05 17:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Shopping Cart/input_1,600.00_termsofservice' is clicked on
+
+2023-07-05 17:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout")): Object: 'Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout' is clicked on
+
+2023-07-05 17:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout' is clicked on
+
+2023-07-05 17:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Login/button_Checkout as Guest")): Object: 'Object Repository/Page_nopCommerce demo store. Login/button_Checkout as Guest' is clicked on
+
+2023-07-05 17:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Login/button_Checkout as Guest' is clicked on
+
+2023-07-05 17:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_First name_BillingNewAddress.FirstName"), "magesh"): Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_First name_BillingNewAddress.FirstName'
+
+2023-07-05 17:39:11 - [MESSAGE][PASSED] - Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_First name_BillingNewAddress.FirstName'
+
+2023-07-05 17:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Last name_BillingNewAddress.LastName"), "magesh"): Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Last name_BillingNewAddress.LastName'
+
+2023-07-05 17:39:12 - [MESSAGE][PASSED] - Text 'magesh' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Last name_BillingNewAddress.LastName'
+
+2023-07-05 17:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Email_BillingNewAddress.Email"), email): Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Email_BillingNewAddress.Email'
+
+2023-07-05 17:39:13 - [MESSAGE][PASSED] - Text 'hicooled@mailinator.com' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Email_BillingNewAddress.Email'
+
+2023-07-05 17:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company"), company): Text 'software company' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company'
+
+2023-07-05 17:39:14 - [MESSAGE][PASSED] - Text 'software company' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company'
+
+2023-07-05 17:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company' is clicked on
+
+2023-07-05 17:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/input_Company_BillingNewAddress.Company' is clicked on
+
+2023-07-05 17:39:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112"), "0", true): All options with value '0' are selected in object 'Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112'  using regular expression
+
+2023-07-05 17:39:18 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112'  using regular expression
+
+2023-07-05 17:39:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112'  using regular expression
+
+2023-07-05 17:39:22 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_nopCommerce demo store. Checkout/select_Select countryUnited StatesAfghanist_6b3112'  using regular expression
+
+2023-07-05 17:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_City_BillingNewAddress.City"), "one coty"): Text 'one coty' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_City_BillingNewAddress.City'
+
+2023-07-05 17:39:22 - [MESSAGE][PASSED] - Text 'one coty' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_City_BillingNewAddress.City'
+
+2023-07-05 17:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Address 1_BillingNewAddress.Address1"), "one address"): Text 'one address' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Address 1_BillingNewAddress.Address1'
+
+2023-07-05 17:39:23 - [MESSAGE][PASSED] - Text 'one address' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Address 1_BillingNewAddress.Address1'
+
+2023-07-05 17:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Zip  postal code_BillingNewAddress.Zi_77bd94"), "41041"): Text '41041' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Zip  postal code_BillingNewAddress.Zi_77bd94'
+
+2023-07-05 17:39:24 - [MESSAGE][PASSED] - Text '41041' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Zip  postal code_BillingNewAddress.Zi_77bd94'
+
+2023-07-05 17:39:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/input_Phone number_BillingNewAddress.PhoneNumber"), "7417417417"): Text '7417417417' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Phone number_BillingNewAddress.PhoneNumber'
+
+2023-07-05 17:39:25 - [MESSAGE][PASSED] - Text '7417417417' is set on object 'Object Repository/Page_nopCommerce demo store. Checkout/input_Phone number_BillingNewAddress.PhoneNumber'
+
+2023-07-05 17:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/button_Continue")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue' is clicked on
+
+2023-07-05 17:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue' is clicked on
+
+2023-07-05 17:39:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-05 17:39:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-05 17:39:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1")): Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1' is visible
+
+2023-07-05 17:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1' is visible
+
+2023-07-05 17:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1' is clicked on
+
+2023-07-05 17:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_1' is clicked on
+
+2023-07-05 17:39:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-05 17:39:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-05 17:39:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_nopCommerce demo store. Checkout/button_Continue_2"), 30): Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is visible
+
+2023-07-05 17:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is visible
+
+2023-07-05 17:39:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_nopCommerce demo store. Checkout/button_Continue_2")): Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is visible
+
+2023-07-05 17:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is visible
+
+2023-07-05 17:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_nopCommerce demo store. Checkout/button_Continue_2")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is clicked on
+
+2023-07-05 17:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_2' is clicked on
+
+2023-07-05 17:39:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_nopCommerce demo store. Checkout/button_Continue_4"), 5): Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_4' is present
+
+2023-07-05 17:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_4' is present
+
+2023-07-05 17:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_nopCommerce demo store. Checkout/button_Continue_4")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_4' is clicked on
+
+2023-07-05 17:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Continue_4' is clicked on
+
+2023-07-05 17:39:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_nopCommerce demo store. Checkout/button_Confirm_5"), 5): Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Confirm_5' is present
+
+2023-07-05 17:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nopCommerce demo store. Checkout/button_Confirm_5' is present
+
+2023-07-05 17:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_nopCommerce demo store. Checkout/button_Confirm_5")): Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Confirm_5' is clicked on
+
+2023-07-05 17:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_nopCommerce demo store. Checkout/button_Confirm_5' is clicked on
+
+2023-07-05 17:39:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 17:39:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-05 17:37:43 - [TEST_SUITE][PASSED] - threeModuleSuite: Test Cases/Test Case List/Guest Order Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

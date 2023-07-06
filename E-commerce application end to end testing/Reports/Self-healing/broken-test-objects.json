@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_nopCommerce demo store. Login/input_Email_Email",
+      "brokenLocator": "//input[@id\u003d\u0027Email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_nopCommerce demo store. Cell phones/span_shopping cart_close",
+      "brokenLocator": "//div[@id\u003d\u0027bar-notification\u0027]/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_nopCommerce demo store. Cell phones/span_shopping cart_close_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_nopCommerce demo store. Cell phones/button_Add to cart",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$100.00\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
