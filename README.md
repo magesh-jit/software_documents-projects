@@ -1,5 +1,5 @@
 # software_documents-projects
-Welcome to my repository! Skilled manual tester, proficient in both manual and automated testing. Diverse projects demonstrate meticulous execution, bug tracking, and collaboration. Proficiency in Selenium, Jira, and Katalon Studio. Let's connect to discuss how I can contribute to your team!
+Welcome to my repository! I am a dynamic software testing professional, proficient in both manual and automated testing methodologies. My extensive experience in meticulously ensuring software quality is complemented by my adeptness in tools like Selenium, Katalon Studio, and Jira. I take pride in a proven track record of not just finding bugs but helping teams deliver smoother, bug-free software experiences. Let's connect and explore how my passion for precision and collaboration can contribute to the success of your projects and the growth of our organization.
 
 **Projects**
 
