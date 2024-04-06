@@ -19,7 +19,9 @@ Bug Report Documentation: Comprehensive reports highlighting critical issues dis
 
 **Tools and Technologies**
 
-Proficient in Selenium with Java for automated testing, including recent completion of a comprehensive course.
+Proficient in Selenium with Java for automated testing.
+
+Proficient in utilizing browser extensions for bug reporting and tracking, including Test Buddy AI.
 
 Experienced in using Jira for issue tracking and collaboration.
 
